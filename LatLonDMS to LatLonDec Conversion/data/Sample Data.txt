@@ -1,0 +1,9 @@
+This is a sample of data that the conversion program uses as input.
+The data represents pairs of latitudes and longitudes in degrees, minutes, and
+seconds.  The program converts the pairs to equivalent latitudes and longitudes in decimal degrees.
+
+Latitude	Longitude
+40414349906	073555697073W
+40415797916	073554749140W
+40414387259	073571281315W
+40372699487	074002217562W
