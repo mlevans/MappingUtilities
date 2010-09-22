@@ -15,14 +15,14 @@ public class Main {
     int ndata;
 
     public static void main(String[] args) {
-        Main cdmslatlondec = new Main();
+        Main cdmslatlondec = new Main(); //cmdslatlondec = convert dms to lat lon decimal
         cdmslatlondec.run(args);
     }
 
     public void run(String[] args) {
         File inDir = new File("input");
         File inFile = inDir.listFiles()[0];
-        File outFile = new File("output/nylatlong.txt");
+        File outFile = new File("output/output.txt");
 
         ndata = 0;
 
