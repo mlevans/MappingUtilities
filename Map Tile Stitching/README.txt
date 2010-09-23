@@ -20,7 +20,7 @@ We can call the first row "Row 0" and the first column "Column 0."  Each map til
 
 In the input folder, we list the subsequent map tiles.  At the beginning of each row, we move through the columns, left to right.  At the end of a row, we simply move down to the next row.
 
-So if we had 16 tiles in a 4x4 grid, we would have he following list of images.
+So if we had 16 tiles in a 4x4 grid, we would have the following list of images.
 
 00_00.png (row_col.png)
 00_01.png
@@ -38,6 +38,8 @@ So if we had 16 tiles in a 4x4 grid, we would have he following list of images.
 03_01.png
 03_02.png
 03_03.png
+
+Why are we using two digits to represent rows and columns?
 
 It might be confusing that we're using two digits to represent a row and two digits to represent a column.  If we're merely dealing wih 16 tiles, we would not need to use
 two digits.  But we need to anticipate that you will be dealing with much greater numbers of map tiles.  For example, you may be working with a 16x16 grid.  In that case, you 
