@@ -50,7 +50,7 @@ public class Main {
                 BufferedImage tempImage = image.getSubimage(j*256, i*256, 256, 256);
                 g.drawImage(tempImage, 0, 0, 256, 256, null);
                 
-                outFile = new File("output/Zoom15/" + i +'_'+ j + ".png");
+                outFile = new File("output/SampleZoomLevel/" + i +'_'+ j + ".png");
 
                 try {
                     ImageIO.write(outputImage, "png", outFile);
